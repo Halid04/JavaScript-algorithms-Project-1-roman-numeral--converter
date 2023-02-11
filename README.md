@@ -1,1 +1,2 @@
-# JavaScript-algorithms-Project-1-roman-numeral--converter
+# Roman Numeral Converter
+This algorithm converts a number in numerical format to a number in Roman format. It uses a conversion table that associates Roman numerals with their corresponding numerical values. The algorithm iterates over the table and, for each element in the table, compares the associated numerical value with the number to be converted. If the associated numerical value is less than or equal to the number to be converted, it adds the associated Roman value to the resulting string and subtracts the numerical value from the quantity to be converted. It continues until the number to be converted becomes zero.
